@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  height: 100px;
+  background-color: antiquewhite;
+}
+
+main {
+  height: calc(100vh - 200px);
+  overflow-y: scroll;
+}
+
+div.card-container {
+  padding: 20px;
+}
+
+div.single_card {
+  width: calc(50% - 400px);
+  margin: 10px auto;
+  height: inherit;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  background-color: antiquewhite;
+  height: 100px;
+}
+
